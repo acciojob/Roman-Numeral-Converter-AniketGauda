@@ -16,8 +16,8 @@ function convertToRoman(num) {
 	
 	let str="";
     for(let i=0;i<values.length;i++){
-        while(n>=values[i]){
-            n-=values[i];
+        while(num>=values[i]){
+            num-=values[i];
             str+=`${romanLetters[i]}`
         }
     }
